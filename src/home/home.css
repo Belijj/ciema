@@ -1,0 +1,56 @@
+.home__wrap
+{
+    display: flex;
+    height: 87vh;
+    width: 100vw;
+    margin-top: 12vh;
+}
+.text__area
+{
+    flex: 1;
+}
+.text__area h1
+{
+    margin-top: 20%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    width: 90%;
+}
+.text__area p
+{
+    font-family: "Aerial", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    font-size: 4vh;
+    width: 90%;
+}
+.text__area button
+{
+    margin-left: 10%;
+    width: 15vw;
+    height: 10vh;
+    background-color:#f08e52;
+    border-radius: 50px;
+    border: none;
+    font-size: 3vh;
+    font-family: "Aerial", sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    color: white;
+}
+.photo__area
+{
+    flex: 1;
+}
+.photo__area img
+{
+    width: 40vw;
+    height: 80vh;
+
+}

@@ -1,0 +1,58 @@
+.home__wrap {
+    position: relative;
+    height: 88vh;
+    width: 100vw;
+    padding-top: 12vh;
+    background-image: url("./skalka.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.intro__text {
+    margin-top: 20vh;
+    color: white;
+    text-align: center;
+}
+
+.intro__text h1 {
+    margin-top: 20vh;
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+}
+
+.intro__text p {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+}
+
+.intro__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.intro__buttons:first-child {
+    background-color: rgba(139, 101, 65, 0.5);
+}
+
+.intro__buttons button {
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    width: 22vw;
+    height: 11vh;
+    background-color: rgba(120, 87, 56, 0.5);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 3vh;
+}
+

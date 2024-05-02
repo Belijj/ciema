@@ -1,56 +1,58 @@
-.home__wrap
-{
-    display: flex;
-    height: 87vh;
+.home__wrap {
+    position: relative;
+    height: 88vh;
     width: 100vw;
-    margin-top: 12vh;
+    padding-top: 12vh;
+    background-image: url("./skalka.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.text__area
-{
-    flex: 1;
+
+
+.intro__text {
+    margin-top: 20vh;
+    color: white;
+    text-align: center;
 }
-.text__area h1
-{
-    margin-top: 20%;
-    font-family: "Pacifico", cursive;
+
+.intro__text h1 {
+    margin-top: 20vh;
+    font-family: "Lobster", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 10vh;
-    margin-left: 10%;
-    margin-bottom: 0%;
-    width: 90%;
 }
-.text__area p
-{
-    font-family: "Aerial", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-top: 2.5%;
-    margin-left: 10%;
-    font-size: 4vh;
-    width: 90%;
-}
-.text__area button
-{
-    margin-left: 10%;
-    width: 15vw;
-    height: 10vh;
-    background-color:#f08e52;
-    border-radius: 50px;
-    border: none;
-    font-size: 3vh;
-    font-family: "Aerial", sans-serif;
-    font-weight:lighter;
-    font-style: normal;
-    color: white;
-}
-.photo__area
-{
-    flex: 1;
-}
-.photo__area img
-{
-    width: 40vw;
-    height: 80vh;
 
+.intro__text p {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
 }
+
+.intro__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.intro__buttons:first-child {
+    background-color: rgba(139, 101, 65, 0.5);
+}
+
+.intro__buttons button {
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    width: 22vw;
+    height: 11vh;
+    background-color: rgba(120, 87, 56, 0.5);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 3vh;
+}
+

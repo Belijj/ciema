@@ -3,6 +3,7 @@ import Home from './home/home.jsx';
 import Header from './header/header.jsx';
 import Catalog from './catalog/catalog.jsx';
 import Banketi from './banketi/banketi.jsx';
+import Lokacijas from './lokacijas/lok.jsx';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/banketi" element={<Banketi />} />
+        <Route path="/lokacijas" element={<Lokacijas />} />
       </Routes>
     </Router>
   );

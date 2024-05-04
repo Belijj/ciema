@@ -13,7 +13,7 @@
 }
 .header
 {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -74,7 +74,7 @@
     border-right: none;
 }
 .header__link{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight:600;
     font-size: 3vh;
     text-decoration: none;
@@ -221,5 +221,8 @@
     height: 12vh;
     background-color: rgb(255, 255, 255);
     z-index: 2;
+    }
+    .header{
+        position: fixed;
     }
 }

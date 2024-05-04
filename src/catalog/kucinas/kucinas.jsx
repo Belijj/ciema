@@ -1,7 +1,7 @@
-import './kucinas.css';
+import '../catalog.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Tort from './kucinas,jpeg.jpg'
+import Tort from './kucinas.jpeg'
 
 function Kucinas() {
     const [activeLink, setActiveLink] = useState(null);

@@ -1,4 +1,4 @@
-import './tortes.css';
+import '../catalog.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Tort from './tort.jpeg'

@@ -1,8 +1,12 @@
 .catalog__wrap{
     display: flex;
-    margin-top:  26vh;
+    padding-top: 20%;
+    padding-bottom: 35%;
     width: 100%;
-    height: 72vw;
+    height: 72vh;
+    background-image: url('C:\Users\jerem\OneDrive\Рабочий стол\ciema\src\catalog\bg.jpeg');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center; /* Positions the background image in the center */
 }
 
 .kat__wrapper{
@@ -12,13 +16,17 @@
 
 .kat__menu{
     width: 70%;
-    height: 50%;
+    height: auto;
+    padding-bottom: 10%;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    background-color: beige;
+    background-color: rgb(228, 225, 225, 0.3);
+    
     margin-left: 15%;
     border-radius: 20px;
+    border: 2px solid #ffffff;
+
 }
 
 
@@ -28,17 +36,19 @@
     height: auto;
     text-align: center;
     border-radius: 50px;
-    font-size: 2vh;
+    font-size: 25px;
     text-decoration: none;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: rgb(228, 225, 225);
 }
 
 .kat__menu h1{
     font-family: "Lobster", cursive;
     font-weight: 400;
+    color: rgb(228, 225, 225);
     font-style: normal;
 }
 
@@ -47,7 +57,7 @@
     width: 95%;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    gap: 6.5%;
+    gap: 3%;
     height: 100%; 
 }
 
@@ -57,8 +67,9 @@
 }
 
 .grid__elem{
+    margin-top: 0;
     max-width: 100%;
-    height: 90%;
+    max-height: 80%;
     background-color: black;
     border-radius: 20px;
 }
@@ -71,7 +82,7 @@
 }
 
 
-.kat__menu .active{
+.kat__menu a.active{
     background-color: black;
 }
 

@@ -1,9 +1,30 @@
 import './catalog.css';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PiragiImage from './piragi.jpeg';
+import TortesImage from './tort.jpeg';
+import KucinasImage from './kucinas.jpeg';
+import MaizitesImage from './maizites.jpeg';
+import CepumiImage from './cepumi.jpeg';
 
 function Catalog() {
-    const [activeLink, setActiveLink] = useState(null);
+    const [activeLink, setActiveLink] = useState('/tortes');
+
+    const linkCheck = () => {
+        if (activeLink === '/tortes') {
+            return TortesImage;
+        } else if (activeLink === '/maizites') {
+            return MaizitesImage;   
+        } else if (activeLink === '/piragi') {
+            return PiragiImage;
+        } else if (activeLink === '/cepumi') {
+            return CepumiImage;
+        } else if (activeLink === '/kucinas') {
+            return KucinasImage;
+        } else if (activeLink === '/catalog') {
+            return TortesImage;}
+
+    };
 
     return (
         <div className='catalog__wrap'>
@@ -48,16 +69,17 @@ function Catalog() {
                 </div>
             </div>
             <div className="grid__wrapper">
-                <div className={`grid__menu ${activeLink === '/tortes' ? 'tortes-bg' : ''}`}>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
-                    <div className="grid__elem"></div>
+                <div className='grid__menu'>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
+
                 </div>
             </div>
         </div>

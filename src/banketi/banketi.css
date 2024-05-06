@@ -107,4 +107,9 @@
         height: 40vh;
         border-radius: 30vh;
     }
+    .header__wrap p::before
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
   }

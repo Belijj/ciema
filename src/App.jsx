@@ -17,6 +17,7 @@ function App() {
         <Route path="/banketi" element={<Banketi />} />
         <Route path="/lokacijas" element={<Lokacijas />} />
         <Route path="/pasutijumi" element={<Pasutijums />} />
+        <Route path='/info' element={<Home/>}/>
       </Routes>
     </Router>
   );

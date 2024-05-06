@@ -78,7 +78,7 @@
 
 .loc__info p,
 .loc__text p{
-    width: 60%;
+    width: 70%;
 }
 .loc__info {
 
@@ -182,6 +182,10 @@
     font-size: 1.82vh;
     left: 85%;
     }
+    .loc__info p,
+    .loc__text p{
+    width: 62.5%;
+}
 
 
 .lok__head h1::after

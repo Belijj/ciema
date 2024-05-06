@@ -29,12 +29,12 @@
 
 
 .kat__menu a{
-    margin-top: 17%;
+    margin-top: 7vh;
     width: auto;
     height: auto;
     text-align: center;
     border-radius: 50px;
-    font-size: 2.6vh;
+    font-size: 1.65vw;
     text-decoration: none;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
@@ -45,23 +45,34 @@
 .kat__menu h1{
     font-family: "Lobster", cursive;
     font-weight: 400;
+    font-size: 3vw;
     color: rgb(228, 225, 225);
     font-style: normal;
 }
 
 
 .grid__menu{
-    width: 95%;
+    flex-wrap: wrap;
+    width: auto;
     display: grid;
-    grid-template-columns: repeat(3, 30vh);
+    grid-template-columns: repeat(3, 17.5vw);
     grid-template-rows: repeat(3, 30vh);
+    margin-left: -10vw;
     gap: 6%;
+    padding: 0;
     height: 100%; 
 }
 
 .grid__wrapper{
+    margin-left: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+
     width: 80%;
-    height: 100%;
+    height: auto;
 }
 
 .grid__elem{

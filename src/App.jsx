@@ -22,6 +22,7 @@ function App() {
         <Route path="/cepumi" element={<Catalog />} />
         <Route path="/lokacijas" element={<Lokacijas />} />
         <Route path="/pasutijumi" element={<Pasutijums />} />
+        <Route path='/info' element={<Home/>}/>
       </Routes>
     </Router>
   );

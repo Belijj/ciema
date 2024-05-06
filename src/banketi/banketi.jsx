@@ -14,7 +14,7 @@ function Banketi() {
         <p>Uzkodas īpašiem pasākumiem/furšeti</p>
       </div>
       <div className='banketi__content'>
-        <p>Vai tās būtu <span className='context'>lietišķas brokastis birojā</span>, risinot svarīgas sarunas, <span className='context'>kafijas pauzes</span> semināros un oficiālās sanāksmes vai omulīgs draugu <span className='context'>tusiņš</span> nedēļas nogalē, <span className='context'>dzimšanas diena</span>, mēs piedāvājam šādas uzkodas:</p>
+        <p>Vai tās būtu lietišķas brokastis birojā, risinot svarīgas sarunas,kafijas pauzes semināros un oficiālās sanāksmes vai omulīgs draugu tusiņš nedēļas nogalē, dzimšanas diena, mēs piedāvājam šādas uzkodas:</p>
         <div className='banketi__imgs'>
           <div className='banketi__img'>
             <img src={idk} alt="Sviestmaizes" />

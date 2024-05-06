@@ -38,7 +38,7 @@ function Header() {
                             <Link to="/banketi" className={`header__link ${location.pathname === '/banketi' ? 'active' : ''}`}>Banketi</Link>
                         </li>
                         <li>
-                            <Link to="/team" className={`header__link ${location.pathname === '/team' ? 'active' : ''}`}>Pasūtījumi</Link>
+                            <Link to="/pasutijumi" className={`header__link ${location.pathname === '/pasutijumi' ? 'active' : ''}`}>Pasūtījumi</Link>
                         </li>
                         <li>
                             <Link to="/lokacijas" className={`header__link ${location.pathname === '/lokacijas' ? 'active' : ''}`}>Lokācijas</Link>

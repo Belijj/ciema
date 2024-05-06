@@ -3,7 +3,8 @@ import Home from './home/home.jsx';
 import Header from './header/header.jsx';
 import Catalog from './catalog/catalog.jsx';
 import Banketi from './banketi/banketi.jsx';
-
+import Lokacijas from './lokacijas/lok.jsx';
+import Pasutijums from './pasutijumi/pasutijums.jsx';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         <Route path="/kucinas" element={<Catalog />} />
         <Route path="/maizites" element={<Catalog />} />
         <Route path="/cepumi" element={<Catalog />} />
+        <Route path="/lokacijas" element={<Lokacijas />} />
+        <Route path="/pasutijumi" element={<Pasutijums />} />
       </Routes>
     </Router>
   );

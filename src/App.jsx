@@ -5,6 +5,7 @@ import Catalog from './catalog/catalog.jsx';
 import Banketi from './banketi/banketi.jsx';
 import Lokacijas from './lokacijas/lok.jsx';
 import Pasutijums from './pasutijumi/pasutijums.jsx';
+import Footer from './footer/footer.jsx';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/pasutijumi" element={<Pasutijums />} />
         <Route path='/info' element={<Home/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }

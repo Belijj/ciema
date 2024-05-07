@@ -27,7 +27,7 @@ function Header() {
                 <nav className={`header__menu ${isActive ? 'active' : ''}`}>
                     <ul className="header__list">
                         <li>
-                            <Link to="/info" className={`header__link ${location.pathname === '/info' ? 'active' : ''}`}>Par mums</Link>
+                            <Link to="/" className={`header__link ${location.pathname === '/' ? 'active' : ''}`}>Par mums</Link>
                         </li>
                         <li>
                             <Link to="/catalog" className={`header__link ${location.pathname === '/catalog' ? 'active' : ''}`}>Katalogs</Link>

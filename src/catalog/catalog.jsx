@@ -68,20 +68,22 @@ function Catalog() {
                     </Link>
                 </div>
             </div>
-            <div className="grid__wrapper">
-                <div className='grid__menu'>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
-                    <div className="grid__elem"><img src={linkCheck()} alt="Catalog Item" /></div>
 
-                </div>
+            <div className="products">
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                <div className="productElem"><img src={linkCheck()}></img></div>
+                
+
+
             </div>
+
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import './banketi.css';
-import cakes from './cakes.jpeg';
-import idk from './idk.jpeg';
-import juice from './juice.jpeg';
-import salad from './salad.jpeg';
-import sandwich from './sandwich.jpeg';
-import seledka from './seledka.jpeg';
+import cakes from './cake.png';
+import idk from './piroz.png';
+import crois from './crois.png';
+import pure from './pure.png';
+import salat from './salat.png';
+import drink from './drink.png';
 
 function Banketi() {
   return (
@@ -17,27 +17,27 @@ function Banketi() {
         <p>Vai tās būtu lietišķas brokastis birojā, risinot svarīgas sarunas,kafijas pauzes semināros un oficiālās sanāksmes vai omulīgs draugu tusiņš nedēļas nogalē, dzimšanas diena, mēs piedāvājam šādas uzkodas:</p>
         <div className='banketi__imgs'>
           <div className='banketi__img'>
-            <img src={idk} alt="Sviestmaizes" />
+            <img src={cakes} alt="Sviestmaizes" />
             <p>Sviestmaizes</p>
           </div>
           <div className='banketi__img'>
-            <img src={cakes} alt="Konditorejas izstrādājumi & kūkas" />
+            <img src={idk} alt="Konditorejas izstrādājumi & kūkas" />
             <p>Konditorejas izstrādājumi & kūkas</p>
           </div>
           <div className='banketi__img'>
-            <img src={sandwich} alt="Kruasāni" />
+            <img src={crois} alt="Kruasāni" />
             <p>Kruasāni</p>
           </div>
           <div className='banketi__img'>
-            <img src={seledka} alt="Dažāda veida plates" />
+            <img src={pure} alt="Dažāda veida plates" />
             <p>Dažāda veida plates</p>
           </div>
           <div className='banketi__img'>
-            <img src={salad} alt="Salāti un dažādas aukstās uzkodas" />
+            <img src={salat} alt="Salāti un dažādas aukstās uzkodas" />
             <p>Salāti un dažādas aukstās uzkodas</p>
           </div>
           <div className='banketi__img'>
-            <img src={juice} alt="Dzērieni" />
+            <img src={drink} alt="Dzērieni" />
             <p>Dzērieni</p>
           </div>
         </div>

@@ -53,6 +53,10 @@
     justify-content: center;
     padding-bottom: 10vh;
 }
+.pas__btns button:first-child
+{
+    background-color: rgb(120, 87, 56, 0.64);
+}
 .pas__btns button
 {
     width: 20vw;
@@ -60,11 +64,16 @@
     font-family: "Lobster", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(120, 87, 56, 0.7);
+    background-color: rgba(178, 129, 84, 0.64);
     color: white;
     font-size: 4vh;
     border-radius: 2.5vh;
     border: 2px solid rgba(120, 87, 56);
+    transition: 0.3s ease;
+}
+.pas__btns button:hover
+{
+    transform: scale(1.05);
 }
 @media (max-width:767px){
 

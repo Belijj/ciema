@@ -68,6 +68,11 @@
     border: 2px solid rgba(120, 87, 56);
     position: relative;
     font-size:1.25vw;
+    transition: 0.3s ease;
+}
+.location:hover
+{
+    transform: scale(1.05);
 }
 
 .loc__info,
@@ -168,7 +173,6 @@
 }
 .location:last-child{
     margin-top: 10vh;
-    margin-bottom: 5vh;
 }
 @media (max-width:767px){
     .location

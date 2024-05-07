@@ -1,8 +1,11 @@
 .start__wrap
 {
-    width: 90vw;
+    width: 100vw;
 }
-
+.prikol
+{
+    height: ;
+}
 .home__wrap {
     position: relative;
     height: 88vh;
@@ -50,10 +53,10 @@
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 .intro__buttons:first-child {
-    background-color: rgba(139, 101, 65, 0.5);
+    background-color: rgba(120, 87, 56, 0.5);
 }
 
 .intro__buttons button {
@@ -63,18 +66,25 @@
     font-size: 5vh;
     width: 22vw;
     height: 11vh;
-    background-color: rgba(120, 87, 56, 0.5);
+    background-color: rgba(178, 129, 84, 0.5);
     color: white;
     border-radius: 30px;
     border: 2px solid white;
     font-size: 3vh;
+    transition: 0.3s ease;
+}
+.intro__buttons button:hover
+{
+    transform: scale(1.05);
 }
 .about__us
 {
+    opacity: 0;
     width: auto;
     text-align: center;
     padding-top: 16vh;
     text-align: center;
+    animation: fadeIn 3s forwards;
 
 }
 .about__us p
@@ -119,7 +129,16 @@
 }
 .about__p:last-child
 {
-    padding-bottom: 10vh;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes expandLine {
